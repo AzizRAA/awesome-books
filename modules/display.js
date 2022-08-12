@@ -10,15 +10,14 @@ export const html = (title, author) => `
 `;
 
 export const displayBook = (myLib) => {
-    bookContainer.innerHTML = '';
-    myLib.forEach((s) => {
-      bookContainer.innerHTML += html(s.title, s.author);
-    });
-
+  bookContainer.innerHTML = '';
+  myLib.forEach((s) => {
+    bookContainer.innerHTML += html(s.title, s.author);
+  });
 
   const deleteButton = bookContainer.querySelectorAll('.remove');
   deleteButton.forEach((key, index) => key.addEventListener('click', () => {
-   myLib.splice(index, 1);
+    myLib.splice(index, 1);
     saveMyLib(myLib);
     displayBook(myLib);
   }));
