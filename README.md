@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Awesome books
+# Awesome books ES6
  
 In this project, We build the Awesome books application by using JavaScript ES6.
 
@@ -40,14 +40,7 @@ HTML CSS JavaScript
 ### Deployment
 
 
-
 ## Authors
-
-👤 **Bnejamin Kisenge**
-
-* GitHub: [@benjamin kisenge](https://github.com/iambenkis)
-* Twitter: [@benjamin kisenge](https://twitter.com/iambenkis)
-* LinkedIn: [benjamin kisenge](https://www.linkedin.com/in/ben-kisenge/)
 
 👤 **Aziz Ruzmatov**
 
